@@ -1,0 +1,59 @@
+/* v18: compact, visible cards; explicit workspace and report states. */
+.rs-restored-store .hero-combo h1{animation:pulse 2s infinite;will-change:transform}
+.rs-restored-store .category-btn[data-category]{display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.rs-restored-store .rs-category-count18{display:inline-grid;place-items:center;min-width:25px;height:23px;padding:0 6px;border-radius:999px;background:#a855f717;color:#7624a8;font-size:11px;font-weight:750}
+.rs-restored-store .category-btn.active .rs-category-count18{background:#ffffff38;color:#fff}
+.rs-restored-store #productGrid{align-items:start!important}
+.rs-restored-store #productGrid .product-card{display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:11px!important;min-height:0!important;height:auto!important;padding:17px!important;text-align:center;overflow:hidden;border:1px solid #eadff2!important;border-radius:20px!important}
+.rs-restored-store #productGrid .rs-card-image{position:relative;width:100%;height:200px!important;min-height:0!important;margin:0!important;background:linear-gradient(135deg,#f5f3f9,#faf8fc);border-radius:15px;overflow:hidden}
+.rs-restored-store #productGrid .product-img{display:block;height:200px!important;max-height:200px!important;width:100%!important;object-fit:contain!important;aspect-ratio:auto!important;margin:0!important}
+.rs-restored-store #productGrid .product-card h2{margin:0!important;padding:0!important;min-height:0!important;font-size:17px!important;line-height:1.45!important;color:#30253c}
+.rs-restored-store #productGrid .rs-price-line{margin:0!important;gap:8px!important;min-height:0!important;justify-content:center}
+.rs-restored-store #productGrid .rs-price-now{font-size:21px!important;color:#ed3154!important}
+.rs-restored-store #productGrid .rs-price-old{font-size:12px!important}
+.rs-restored-store #productGrid .rs-pill-save{font-size:10px!important;padding:6px 9px!important}
+.rs-restored-store #productGrid .product-rating{margin:0!important;padding:0!important;min-height:0!important;line-height:1.4}
+.rs-restored-store #productGrid .rs-purchase-pill{align-self:center;margin:0!important;font-size:10px;padding:6px 9px}
+.rs-restored-store #productGrid .rs-card-meta{display:flex;flex-wrap:wrap;justify-content:center;gap:7px!important;padding:0!important;margin:0!important;min-height:0!important;line-height:1.55}
+.rs-restored-store #productGrid .rs-card-meta small{margin:0!important;font-size:11px!important;line-height:1.55!important;color:#625570}
+.rs-restored-store #productGrid .hover-actions{position:static!important;inset:auto!important;display:grid!important;grid-template-columns:1fr 1fr;gap:8px!important;opacity:1!important;visibility:visible!important;transform:none!important;background:transparent!important;padding:0!important;margin:0!important;min-height:0!important;height:auto!important;width:100%!important;pointer-events:auto!important}
+.rs-restored-store #productGrid .hover-actions .buy-btn{display:inline-flex;align-items:center;justify-content:center;margin:0!important;padding:10px 6px!important;min-height:38px!important;border-radius:999px!important;font-size:11px!important;line-height:1.4;width:auto!important}
+.rs-restored-store #productGrid .hover-actions .details-btn{grid-column:1/-1;margin:0!important;padding:2px 8px!important;min-height:25px!important;background:none!important;box-shadow:none!important;border:0!important;color:#8632bd!important;font-size:11px!important}
+.rs-restored-store .rs-security18{display:inline-flex!important;align-items:center;justify-content:center;gap:6px;align-self:center;padding:7px 11px!important;margin:0!important;border:1px solid #8cd8df!important;border-radius:999px!important;background:#e6f8fa!important;color:#086b80!important;font-size:10px!important;font-weight:650;line-height:1.45!important;opacity:1!important}
+.rs-restored-store .rs-security18 svg{width:15px;height:15px;flex:none}
+.rs-dialog.rs-cart-drawer .rs-cart-row{grid-template-columns:46px minmax(0,1fr) 30px!important;grid-template-rows:auto!important;gap:10px!important;padding:14px 10px!important;align-items:center!important}
+.rs-dialog.rs-cart-drawer .rs-cart-row>.rs-cart-thumb{grid-column:1;grid-row:1!important;align-self:start}
+.rs-dialog.rs-cart-drawer .rs-cart-row>div:not(.rs-quantity17){grid-column:2;grid-row:1!important}
+.rs-dialog.rs-cart-drawer .rs-cart-row>.rs-remove{grid-column:3;grid-row:1!important;align-self:start}
+.rs-cart-row .rs-cart-line18{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:7px 0 0}
+.rs-cart-row .rs-cart-line18 .rs-pill-amount{font-size:14px!important;padding:6px 10px!important}
+.rs-cart-row .rs-cart-line18 .rs-quantity17{width:104px;height:32px;flex:0 0 104px}
+.rs-cart-row .rs-cart-line18 .rs-quantity17 button{width:31px!important;min-width:31px!important;height:32px!important;font-size:18px}
+.rs-cart-row .rs-cart-line18 .rs-quantity17 input{width:40px!important;height:32px!important;font-size:13px}
+.rs-restored-store .comboX-card{gap:13px!important;height:auto!important;min-height:0!important}
+.rs-restored-store .comboX-products{min-height:0!important;height:auto!important;margin:0!important;padding:0!important;font-size:14px!important;line-height:1.65!important;flex:0 0 auto!important}
+.rs-restored-store .comboX-imgs{min-height:0!important;margin:0!important;gap:8px!important}
+.rs-restored-store .comboX-card .rs-price-line{margin:0!important;padding:0!important}
+.rs-restored-store .comboX-card .rs-combo-savings{margin:0!important;font-size:13px!important;line-height:1.6}
+.rs-restored-store .comboX-card .rs-combo-buttons{margin:0!important;padding:0!important}
+.rs-deal-heading18{display:flex;align-items:center;gap:15px;min-width:0}
+.rs-restored-store #dotd-container .rs-deal-image18{width:68px;height:76px;flex:0 0 68px;object-fit:contain;background:#ffffffed;padding:5px;border-radius:13px}
+.rs-restored-store #dotd-container .rs-deal-heading18 .dotd-name{font-size:22px!important}
+.rs-deal-actions18{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;margin-top:auto}
+.rs-restored-store #dotd-container .rs-deal-actions18 .dotd-button{margin-top:0!important}
+.rs-deal-more18{border:1px solid #ffffffa0;border-radius:14px;padding:11px 15px;background:#ffffff20;color:#fff;font:650 12px/1.4 Poppins,system-ui,sans-serif;cursor:pointer;min-height:44px}
+.rs-deal-more18:hover{background:#ffffff38}.rs-deal-more18:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.rs-workspace18{display:flex;align-items:center;flex-wrap:wrap;gap:8px;font:600 11px/1.5 Poppins,system-ui,sans-serif;color:#766080;min-height:43px}
+.rs-workspace-label18{margin-right:2px}.rs-workspace-end18{font-size:10px;letter-spacing:.05em}
+.rs-workspace-track18{position:relative;border:1px solid #ed9baa;background:#fbdce2;width:53px;height:29px;border-radius:999px;padding:0;cursor:pointer;flex:none;transition:background .2s}
+.rs-workspace-track18 .rs-workspace-thumb18{position:absolute;top:3px;left:3px;width:21px;height:21px;border-radius:50%;background:#d93859;box-shadow:0 2px 5px #76233b33;transition:transform .2s,background .2s}
+.rs-workspace-track18[aria-checked=true]{background:#d5f5e4;border-color:#7acba3}.rs-workspace-track18[aria-checked=true] .rs-workspace-thumb18{transform:translateX(24px);background:#13a161}
+.rs-workspace-track18:disabled{opacity:.6;cursor:wait}.rs-workspace-track18:focus-visible{outline:3px solid #ad6cdb;outline-offset:3px}
+.rs-workspace-badge18{padding:5px 10px;border-radius:999px;font-size:10px;font-weight:800;letter-spacing:.07em}.rs-workspace-badge18.test{background:#ffe1e6;color:#bd2347;border:1px solid #f5a5b7}.rs-workspace-badge18.live{background:#d8f8e6;color:#087f48;border:1px solid #86d4a9}
+.rs-restored-admin .rs-env:not(.live){background:#ffe1e6!important;color:#b82345!important}.rs-restored-admin .rs-env.live{background:#d8f8e6!important;color:#087f48!important}
+.rs-report-intro18{padding:22px 24px;border:1px solid #d9c4eb;border-radius:21px;background:linear-gradient(110deg,#f2ebfc,#edf8fb);margin:0 0 18px}.rs-report-intro18 h2{font-size:23px!important;color:#6f3394;margin:7px 0!important}.rs-report-intro18 p{font-size:13px;color:#685b75;line-height:1.75;margin:0}
+.rs-restored-store #main-header{backdrop-filter:blur(18px);border-bottom:1px solid #ad7ed126;box-shadow:0 7px 26px #6c348c0b}
+.rs-restored-store #main-header .rs-header-links a{border-radius:999px;padding:7px 11px;transition:background .2s,color .2s}.rs-restored-store #main-header .rs-header-links a:hover{background:#a855f714;color:#8b2bca}
+html[data-theme=dark] .rs-restored-store #productGrid .product-card h2{color:#f1e6f8}html[data-theme=dark] .rs-restored-store #productGrid .rs-card-meta small{color:#d1bfe0}html[data-theme=dark] .rs-restored-store .rs-security18{background:#15353b!important;color:#9be8ef!important;border-color:#357a83!important}html[data-theme=dark] .rs-restored-store #productGrid .rs-card-image{background:linear-gradient(135deg,#282231,#17141e)}html[data-theme=dark] .rs-restored-store .rs-category-count18{background:#c383ec28;color:#e7c5fb}html[data-theme=dark] .rs-report-intro18{background:linear-gradient(110deg,#291d36,#182d36);border-color:#715485}html[data-theme=dark] .rs-report-intro18 h2{color:#dab6f2}html[data-theme=dark] .rs-report-intro18 p{color:#d0bedc}
+@media(prefers-reduced-motion:reduce){.rs-restored-store .hero-combo h1{animation:none!important;will-change:auto}.rs-workspace-track18,.rs-workspace-thumb18{transition:none!important}}
+@media(max-width:767px){.rs-restored-store #productGrid .product-card{padding:13px!important;gap:9px!important}.rs-restored-store #productGrid .rs-card-image,.rs-restored-store #productGrid .product-img{height:185px!important;max-height:185px!important}.rs-restored-store #productGrid .product-card h2{font-size:16px!important}.rs-workspace-label18{display:none}.rs-workspace18{gap:6px}.rs-restored-store #dotd-container .rs-deal-heading18 .dotd-name{font-size:20px!important}.rs-deal-actions18{grid-template-columns:minmax(0,1fr) auto}.rs-deal-more18{padding:9px 11px;font-size:11px}.rs-cart-row .rs-cart-line18{gap:7px;justify-content:flex-start}}
