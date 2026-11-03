@@ -1,0 +1,1 @@
+window.RS_CONFIG=Object.freeze({env:'test',apiUrl:'PREVIEW_ONLY_NO_API',brand:'RanSan eStore',preview:true});

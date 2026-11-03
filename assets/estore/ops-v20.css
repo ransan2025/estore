@@ -1,0 +1,4 @@
+/* v20: scoped report metadata only; existing theme tokens remain authoritative. */
+.rs-restored-admin .rs-scope20{display:inline-flex;align-items:center;max-width:100%;padding:.4rem .75rem;border:1px solid #d8b4fe;border-radius:999px;background:#f3e8ff;color:#6b21a8;font-size:.8rem;font-weight:600;line-height:1.5;white-space:normal}
+.rs-restored-admin .rs-report-definition20{margin:.5rem 0 1rem;line-height:1.6;font-size:.875rem;color:inherit;opacity:.85}
+.rs-subscriber20{margin:0 0 1.25rem}.rs-subscriber20 .kpi-grid{margin:.75rem 0}.rs-ageing20{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin:1rem 0}.rs-ageing20 h3{flex-basis:100%;margin:0}
